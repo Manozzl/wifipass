@@ -1,0 +1,45 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(39,39,39);
+}
+
+.text{
+    color: violet;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    height: 300px;
+    width: 500px;
+    text-align: center; 
+    border-radius: 20px;
+    padding-top: 20px;
+    transition-duration: 0.5s;
+}
+
+.text:hover{
+    text-shadow: 0 0 20px;
+    box-shadow: 0 0 20px;
+}
+
+.btn{
+    color: violet;
+    border-style: solid;
+    border-radius: 20px;
+    border-color: violet;
+    font-size: 30px;
+    width: 350px;
+    height: 100px;
+    position: absolute;
+    top: 47%;
+    left: 41%;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.btn:hover{
+    text-shadow: 0 0 20px;
+    box-shadow: 0 0 20px;
+}
